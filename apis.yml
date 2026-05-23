@@ -1,0 +1,134 @@
+aid: scientific-games
+url: https://raw.githubusercontent.com/api-evangelist/scientific-games/refs/heads/main/apis.yml
+name: Scientific Games
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Lottery
+  - Lottery Technology
+  - iLottery
+  - Instant Tickets
+  - Sports Betting
+  - Government Lottery
+  - Gaming Systems
+  - Retail Technology
+description: >-
+  Scientific Games is the global lottery company serving government-sponsored
+  lotteries on six continents in 50+ countries with instant scratch games,
+  draw-based and terminal-generated games, iLottery and mobile platforms,
+  Central Gaming Systems (CGS), retail point-of-sale technology, sports
+  betting solutions, loyalty/CRM, analytics, and managed/partner services.
+  The company traces to Scientific Games Holdings (founded 1973) and was
+  merged into Scientific Games Corporation in 2001 alongside the WMS, Bally
+  and NYX/OpenBet acquisitions. In April 2022 the lottery business was
+  carved out and sold to Brookfield Business Partners for $6.05 billion,
+  taking Scientific Games private; the residual gaming and digital
+  businesses were renamed Light & Wonder (NASDAQ/ASX: LNW), and the social
+  casino subsidiary SciPlay (spun off via IPO in 2019) was reabsorbed and
+  later sits within Light & Wonder. Today Scientific Games operates as an
+  independent, Brookfield-owned, pure-play lottery technology and services
+  company headquartered in Atlanta, Georgia, with instant ticket
+  manufacturing in Alpharetta and Montreal. Scientific Games does not
+  publish a developer portal, OpenAPI specifications, or public SDKs;
+  customer integrations are delivered under direct contract with
+  government lottery operators.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+common:
+  - type: Website
+    url: https://www.scientificgames.com/
+  - type: Company
+    url: https://www.scientificgames.com/company/
+  - type: Products
+    url: https://www.scientificgames.com/products/
+  - type: News
+    url: https://www.scientificgames.com/news/
+  - type: Insights
+    url: https://www.scientificgames.com/insights/
+  - type: Responsibility
+    url: https://www.scientificgames.com/responsibility/
+  - type: Careers
+    url: https://www.scientificgames.com/careers/
+  - type: Contact
+    url: https://www.scientificgames.com/contact/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/scientific-games-lottery/
+  - type: GameGallery
+    url: https://scientificgames.netx.net/portals/game-gallery/
+  - type: ParentCompany
+    url: https://bbuc.brookfield.com/
+maintainers:
+  - FN: API Evangelist
+    url: https://apievangelist.com
+apis:
+  - name: Lottery Games
+    description: >-
+      Scientific Games is the world's largest producer of instant scratch
+      lottery games, generating 70% of global instant game retail sales,
+      and offers more than 160 terminal-generated games across 10
+      categories including traditional draw, PlayNow fast-play, Keno,
+      and virtual sports, plus second-chance and digital titles.
+    humanURL: https://www.scientificgames.com/products/games/
+    tags:
+      - Instant Tickets
+      - Scratch Games
+      - Draw Games
+      - Keno
+      - PlayNow
+      - Virtual Sports
+  - name: Central Gaming Systems
+    description: >-
+      Enterprise omni-channel lottery gaming systems (CGS) supporting draw
+      games, instant game management, retailer terminals, video lottery,
+      digital lottery, and sports betting. Positioned as the leading
+      lottery systems provider in Europe and the fastest growing in the
+      U.S. No public API or developer documentation is published.
+    humanURL: https://www.scientificgames.com/products/technologies/
+    tags:
+      - Gaming Systems
+      - Lottery Platform
+      - Retail Technology
+      - Omnichannel
+  - name: iLottery Digital Platform
+    description: >-
+      Digital lottery platform serving more than 30 lotteries worldwide
+      with eInstant and eDraw games, mobile-first lottery apps,
+      microsites, an Interactive Game Gallery library, second-chance
+      experiences, and an award-winning AI-powered player CRM (notably
+      deployed for Pennsylvania iLottery). All integrations are delivered
+      under direct contract; no public SDKs or OpenAPI specs are
+      published.
+    humanURL: https://www.scientificgames.com/products/digital/
+    tags:
+      - iLottery
+      - Mobile
+      - Loyalty
+      - CRM
+      - Player Engagement
+  - name: Sports Betting
+    description: >-
+      Retail and digital sports betting solutions for government lottery
+      operators in Canada, Europe and the U.S. Combines pre-game and
+      in-play sports content across soccer, tennis, basketball, football,
+      baseball, hockey, motor sports and racing with self-service betting
+      terminals integrated into lottery central gaming systems and
+      retail networks.
+    humanURL: https://www.scientificgames.com/products/sports-betting/
+    tags:
+      - Sports Betting
+      - Retail Wagering
+      - Self-Service Terminals
+  - name: Partner Services
+    description: >-
+      End-to-end instant lottery product management, facilities, field
+      services and managed services for government lottery customers,
+      bundling Scientific Games game design, manufacturing (Alpharetta
+      and Montreal), warehousing, distribution and marketing into a
+      turnkey operations contract.
+    humanURL: https://www.scientificgames.com/products/partner-services/
+    tags:
+      - Managed Services
+      - Operations
+      - Manufacturing
+      - Field Services
