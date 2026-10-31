@@ -1,4 +1,4 @@
-# scientific-games
+# Scientific Games
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,50 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Profile for **Scientific Games** in the API Evangelist network.
+Scientific Games is the global lottery company serving government-sponsored lotteries on six continents in 50+ countries with instant scratch games, draw-based and terminal-generated games, iLottery and mobile platforms, Central Gaming Systems (CGS), retail point-of-sale technology, sports betting solutions, loyalty/CRM, analytics, and managed/partner services. The company traces to Scientific Games Holdings (founded 1973) and was merged into Scientific Games Corporation in 2001 alongside the WMS, Bally and NYX/OpenBet acquisitions. In April 2022 the lottery business was carved out and sold to Brookfield Business Partners for $6.05 billion, taking Scientific Games private; the residual gaming and digital businesses were renamed Light & Wonder (NASDAQ/ASX: LNW), and the social casino subsidiary SciPlay (spun off via IPO in 2019) was reabsorbed and later sits within Light & Wonder. Today Scientific Games operates as an independent, Brookfield-owned, pure-play lottery technology and services company headquartered in Atlanta, Georgia, with instant ticket manufacturing in Alpharetta and Montreal. Scientific Games does not publish a developer portal, OpenAPI specifications, or public SDKs; customer integrations are delivered under direct contract with government lottery operators.
 
-Scientific Games is the global lottery company serving government-sponsored
-lotteries on six continents in 50+ countries. It is headquartered in
-Atlanta, Georgia and operates instant ticket manufacturing in Alpharetta,
-GA and Montreal, QC.
+**Areas:** Lottery · Lottery Technology · iLottery · Instant Tickets · Sports Betting · Government Lottery · Gaming Systems · Retail Technology
 
-## Corporate structure (post-2022)
+## Scientific Games on APIs.io
 
-The Scientific Games name and lottery business were carved out of the old
-Scientific Games Corporation in a multi-step restructuring:
+Everything profiled for Scientific Games is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scientific-games/](https://apis.io/providers/scientific-games/)** — or go straight to one of the APIs or properties below.
 
-- **2019** — SciPlay (social mobile gaming) spun off via IPO from Scientific Games Corporation.
-- **2021** — OpenBet sports betting business sold to Endeavor Group Holdings for $1.2B.
-- **April 2022** — Lottery business sold to **Brookfield Business Partners for $6.05 billion**, taking Scientific Games private as a pure-play lottery operator under Brookfield ownership.
-- **2022** — Residual gaming/digital business renamed **Light & Wonder** (NASDAQ/ASX: LNW).
-- **2024** — SciPlay reabsorbed into Light & Wonder.
+### Published properties
 
-Today the entity profiled here — `scientificgames.com` — is the
-**Brookfield-owned, private lottery technology company**, distinct from
-Light & Wonder (`lnw.com`, profiled separately at
-[api-evangelist/light-and-wonder](https://github.com/api-evangelist/light-and-wonder)).
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## API surface
+#### Security (1)
 
-Scientific Games **does not publish a developer portal, OpenAPI
-specifications, or public SDKs**. Customer integrations — Central Gaming
-Systems (CGS), iLottery, retail POS, sports betting, CRM — are delivered
-under direct contract with government lottery operators. The only
-publicly accessible properties are the corporate site, news/insights, and
-a NetX-hosted Game Gallery image portal for licensed customers.
+Authentication, trust centre, and vulnerability disclosure.
 
-## Product lines
+- [Scientific Games Domain Security](https://apis.io/security/scientific-games/scientific-games-domain-security/)
 
-- **Lottery Games** — instant scratch (70% of global instant retail sales) plus 160+ terminal-generated games (draw, PlayNow, Keno, virtual sports).
-- **Central Gaming Systems (CGS)** — enterprise omnichannel lottery platform.
-- **iLottery Digital Platform** — eInstant/eDraw, mobile apps, Interactive Game Gallery, AI-powered player CRM (Pennsylvania iLottery).
-- **Sports Betting** — retail/self-service terminals and digital wagering for lottery networks.
-- **Partner Services** — turnkey instant ticket manufacturing, field services and managed operations.
+## Where to find this API
 
-## Files
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [`apis.yml`](./apis.yml) — APIs.json index of corporate surfaces and product lines.
+- [Website](https://www.scientificgames.com/)
 
-## Tags
+## API Evangelist rating
 
-Lottery · Lottery Technology · iLottery · Instant Tickets · Sports Betting · Government Lottery · Gaming Systems · Retail Technology
+**Kin Score 3.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 43.8 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scientific-games/](https://apis.io/providers/scientific-games/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Scientific Games: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scientific-games/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
